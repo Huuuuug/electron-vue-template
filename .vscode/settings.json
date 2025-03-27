@@ -1,0 +1,7 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+
+  "prettier.enable": false,
+
+  "eslint.runtime": "node"
+}
