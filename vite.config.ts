@@ -12,7 +12,7 @@ export default defineConfig((env) => {
     },
     resolve: {},
     build: {
-      outDir: path.join(__dirname, 'dist/render'),
+      outDir: path.join(__dirname, 'dist/renderer'),
       emptyOutDir: true,
       minify: false,
       sourcemap: true,
