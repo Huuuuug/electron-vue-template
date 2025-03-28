@@ -63,7 +63,7 @@
       "installerHeaderIcon": "dist/favicon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "rabbit",
+      "shortcutName": "ganghu",
       "deleteAppDataOnUninstall": true,
       "include": "./installer.nsh"
     }
