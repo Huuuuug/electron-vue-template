@@ -11,11 +11,11 @@ import { builtins, getEnv } from './utils'
 
 export interface ConfigOptions {
   env?: typeof process.env.NODE_ENV
-  proc: 'main' | 'render' | 'preload'
+  proc: 'main' | 'renderer' | 'preload'
 }
 
 export default function (opts: ConfigOptions) {
-  const sourcemap = opts.proc === 'render'
+  const sourcemap = opts.proc === 'renderer'
   const options: RollupOptions = {
     input: path.join(__dirname, `../src/${opts.proc}/index.ts`),
     output: {
